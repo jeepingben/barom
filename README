@@ -1,0 +1,3 @@
+sdfThis program takes advantage of the bmp085 pressure/temperature sensor to report either the altitude, or atmospheric pressure normalized to sea level along a wih a graph of the past pressure.  Altitude will not be accurate if the weather is changing and weather will not be accurate if you change your altitude.
+
+The required sensor is available in the freerunner navigation board, or can be installed separately (see http://wiki.openmoko.org/wiki/I2C_Pressure_Sensor or http://jeepingben.homelinux.net/index.php?level=album&id=24). A kernel module is required to access the bmp085.  It is available in 2.6.36 or by compiling it separately.  The module source is at: http://gitorious.org/freerunner-navigation-board/bmp085

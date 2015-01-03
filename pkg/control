@@ -1,0 +1,10 @@
+Package: barom
+Version: 0.9
+Description: A utility for tracking altitude/predicting weather
+Architecture: all
+Section: openmoko/applications
+Priority: optional
+Maintainer: Ben Deering <ben_deering@swissmail.org>
+Homepage: http://jeepingben.homelinux.net/barom/
+Depends: python-elementary, python-pygobject, python-threading
+Source: svn://jeepingben.homelinux.net/svnrepo/barom

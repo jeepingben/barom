@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=barom
+
+Exec=/usr/bin/barom
+Icon=barom
+Terminal=false
+Type=Application
+Categories=GTK;Application;Office
+StartupNotify=true
+SingleInstance=true
+Comment=Barometric Altimiter. 
